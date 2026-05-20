@@ -1,0 +1,10 @@
+node_modules/
+.DS_Store
+dist/
+build/
+out/
+*.min.js
+.idea/
+.vscode/
+*.log
+.env
