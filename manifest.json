@@ -5,11 +5,14 @@
   "description": "Dense pixel-grid visualization where each cell is one span. Color = service, brightness = duration, red flash = error. Click a pixel to drill into its trace. Pairs especially well with the Outrun theme.",
   "author": "edgeless-dev",
   "homepage": "https://github.com/thedavidmurray/edgeless-plugin-static-field",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "minAppVersion": "1.2.0",
   "contributes": {
     "panels": [
-      { "id": "static-field", "label": "Static Field" }
+      {
+        "id": "static-field",
+        "label": "Static Field"
+      }
     ]
   }
 }
